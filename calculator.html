@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitTrack BMI</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="calc-body">
+    <div class="floating-icons">
+        <span>🔥</span>
+        <span>💪</span>
+        <span>🥗</span>
+        <span>🚴‍♂️</span>
+    </div>
+
+    <header class="fade-in">
+        <h1 id="welcome"></h1>
+    </header>
+
+    <main class="bmi-card slide-up">
+        <h2>💪 BMI Calculator</h2>
+        <div class="input-section">
+            <input type="number" id="height" placeholder="Height (cm)" />
+            <input type="number" id="weight" placeholder="Weight (kg)" />
+            <button onclick="calculateBMI()">Calculate</button>
+        </div>
+        <p id="result"></p>
+    </main>
+
+    <section class="info-section fade-in">
+        <div class="info-card">
+            <h3>🥗 Healthy Foods</h3>
+            <p>Whole grains, lean protein, fruits, green veggies, and water.</p>
+        </div>
+        <div class="info-card">
+            <h3>🚫 Avoid</h3>
+            <p>Fried snacks, processed sugar, alcohol, and soda.</p>
+        </div>
+        <div class="info-card">
+            <h3>🏃 Exercise Tips</h3>
+            <p>Run 30 mins daily, stretch, and take rest for muscle recovery.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
